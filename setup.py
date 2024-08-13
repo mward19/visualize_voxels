@@ -4,7 +4,13 @@ setup(
     name="visualize_voxels",
     version="0.1",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=[
+        'ipython',
+        'ipywidgets',
+        'matplotlib',
+        'numpy',
+        'tqdm'
+    ],
     test_suite='',
     # Additional metadata
     author="Matthew Ward",
