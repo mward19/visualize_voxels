@@ -17,7 +17,7 @@ wget https://github.com/mward19/visualize_voxels/raw/master/dist/visualize_voxel
 Use pip on the file you just downloaded to install it to a python environment:
 
 ```shell
-pip install visualize_voxels-0.1-py3-none-any.whl`
+pip install visualize_voxels-0.1-py3-none-any.whl
 ```
 
 Then use the `visualize` function on a 3D image array in a script or Jupyter notebook to visualize it:
