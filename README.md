@@ -1,6 +1,6 @@
 `visualize_voxels` contains `visualize`, which allows for fast, easy visualization of 3D grayscale voxel images stored in the form of a 3D array of values.
 
-Simply calling `visualize(data)` where `data` is a 3D numpy array containing nearly 500 million voxels yields this visualization in a few seconds:
+Simply calling `visualize(data)` where `data` is a 3D numpy array (`run_6355.mrc`, see the Demo heading below) containing nearly 500 million voxels yields this visualization in a few seconds:
 
 ![Example visualization](default_visualization.gif)
 
@@ -39,7 +39,7 @@ visualize(array_to_visualize)
 `visualize` has many keyword arguments to customize display and plot points. See `demo_visualize.ipynb` for examples.
 
 # Demo
-The example data `run_6355.mrc` used in the included demo notebook `demo_visualize.ipynb` can be found at [the CryoET Data Portal](https://cryoetdataportal.czscience.com/runs/6355).
+The example data `run_6355.mrc` used in the included demo notebook `demo_visualize.ipynb` and on this README can be found at [the CryoET Data Portal](https://cryoetdataportal.czscience.com/runs/6355).
 Download the exact file [here](https://cryoetdataportal.czscience.com/runs/6355?download-step=download&download-config=tomogram&tomogram-sampling=10.4&tomogram-processing=raw&file-format=mrc&download-tab=download). The demo notebook relies on the python library `mrcfile` to read `run_6355.mrc`, as well as `skimage`, which can both be installed with `pip`: 
 
 ```shell
