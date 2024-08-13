@@ -1,12 +1,3 @@
-""" 
-Dependencies: 
-    numpy
-    matplotlib
-    ipywidgets
-    IPython
-    tqdm
-"""
-
 import numpy as np
 
 import matplotlib.pyplot as plt
@@ -21,9 +12,6 @@ from IPython.display import HTML
 
 from tqdm.notebook import tqdm as tqdmn
 from tqdm import tqdm
-
-import warnings
-
 
 def round_to_nearest(x, number_list):
     """ Rounds x to the nearest value in number_list. """
@@ -58,7 +46,7 @@ def visualize(
         axis=0,             # Axis to slice over
         marks=[],           # List of 3D tuples to mark
         marksize=75,        # Size of marks in pixels
-        gusmode=False,
+        imodmode=False,
         showaxes=True
     ):
     """
@@ -129,7 +117,7 @@ def visualize(
     
     def update(slice_index):
         ax.clear()
-        if gusmode:
+        if imodmode:
             axislabels = ["Z axis", "Y axis", "X axis"]
         else:
             axislabels = ["Axis 0", "Axis 1", "Axis 2"]
