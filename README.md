@@ -4,6 +4,12 @@ Simply calling `visualize(data)` where `data` is a 3D numpy array containing nea
 
 ![Example visualization](default_visualization.gif)
 
+More is possible by setting keyword arguments. Here is the same array visualized at a higher frame rate through a different axis with a helix plotted in red within the volume:
+
+![Helix visualization](helix_visualization.gif)
+
+Because this uses `matplotlib`'s animations as a backend, the visualizations can be interacted with in Jupyter notebooks.
+
 # Installation
 Download the installation file at [this link](https://github.com/mward19/visualize_voxels/raw/master/dist/visualize_voxels-0.1-py3-none-any.whl), or use `wget`:
 
