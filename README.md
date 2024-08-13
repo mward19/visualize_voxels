@@ -6,8 +6,7 @@ Download the exact file [here](https://cryoetdataportal.czscience.com/runs/6355?
 pip install mrcfile scikit-image
 ```
 
-# Usage
-### Installing `visualize_voxels`
+# Installation
 Download the installation file at [this link](https://github.com/mward19/visualize_voxels/raw/master/dist/visualize_voxels-0.1-py3-none-any.whl), or use `wget`:
 
 ```shell
@@ -20,7 +19,8 @@ Use pip on the file you just downloaded to install it to a python environment:
 pip install visualize_voxels-0.1-py3-none-any.whl
 ```
 
-Then use the `visualize` function on a 3D image array in a script or Jupyter notebook to visualize it:
+# Usage
+Use the `visualize` function on a 3D image array in a script or Jupyter notebook to visualize it:
 
 ```python
 from visualize_voxels import visualize
