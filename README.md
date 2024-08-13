@@ -4,6 +4,9 @@ Download the exact file [here](https://cryoetdataportal.czscience.com/runs/6355?
 
 # Usage
 In Unix terminals, enter the following command to download the installation file:
+
 `wget https://github.com/mward19/visualize_voxels/raw/master/dist/visualize_voxels-0.1-py3-none-any.whl`
+
 Enter this in the same directory to install it to a python environment:
+
 `pip install visualize_voxels-0.1-py3-none-any.whl`
