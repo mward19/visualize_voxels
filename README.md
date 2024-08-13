@@ -9,7 +9,7 @@ In Unix terminals, enter the following command to download the installation file
 wget https://github.com/mward19/visualize_voxels/raw/master/dist/visualize_voxels-0.1-py3-none-any.whl
 ```
 
-Use pip on the just downloaded file to install it to a python environment:
+Use pip on the file you just downloaded to install it to a python environment:
 
 ```shell
 pip install visualize_voxels-0.1-py3-none-any.whl`
