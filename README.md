@@ -14,6 +14,8 @@ Here the array is visualized with a bounding box around the bacteria in the imag
 
 Because this uses `matplotlib`'s animations as a backend, the visualizations can be interacted with in Jupyter notebooks.
 
+See the Demo heading below for more information about the demo notebook, which includes the code that produced the above images, as well as more examples.
+
 # Installation
 Download the installation file at [this link](https://github.com/mward19/visualize_voxels/raw/master/dist/visualize_voxels-0.1-py3-none-any.whl), or use `wget`:
 
