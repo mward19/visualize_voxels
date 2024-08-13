@@ -8,6 +8,10 @@ More is possible by setting keyword arguments. Here is the same array visualized
 
 ![Helix visualization](helix_visualization.gif)
 
+Here the array is visualized with a bounding box around the bacteria in the image:
+
+![Bounding box visualization](bounding_box.mp4)
+
 Because this uses `matplotlib`'s animations as a backend, the visualizations can be interacted with in Jupyter notebooks.
 
 # Installation
