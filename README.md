@@ -7,7 +7,8 @@ pip install mrcfile scikit-image
 ```
 
 # Usage
-In Unix terminals, enter the following command to download the installation file:
+### Installing `visualize_voxels`
+Download the installation file at [this link](https://github.com/mward19/visualize_voxels/raw/master/dist/visualize_voxels-0.1-py3-none-any.whl), or in Unix terminals, enter the following command to download the installation file:
 
 ```shell
 wget https://github.com/mward19/visualize_voxels/raw/master/dist/visualize_voxels-0.1-py3-none-any.whl
