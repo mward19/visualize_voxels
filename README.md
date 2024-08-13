@@ -1,6 +1,7 @@
 `visualize_voxels` contains `visualize`, which allows for fast, easy visualization of 3D grayscale voxel images stored in the form of a 3D array of values.
 
-Simply calling `visualize(data)` yield this:
+Simply calling `visualize(data)` yields this:
+
 ![Example visualization](default_visualization.gif)
 
 # Installation
