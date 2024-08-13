@@ -10,3 +10,17 @@ In Unix terminals, enter the following command to download the installation file
 Use pip on the just downloaded file to install it to a python environment:
 
 `pip install visualize_voxels-0.1-py3-none-any.whl`
+
+Then use the `visualize` function on a 3D image array in a script or Jupyter notebook to visualize it:
+
+```python
+from visualize_voxels import visualize
+import numpy as np
+
+number_generator = np.random.default_rng()
+array_to_visualize = number_generator.normal(size=(100, 100, 100))
+
+visualize(array_to_visualize)
+```
+
+`visualize` has many keyword arguments to customize display and plot points. See `demo_visualize.ipynb` for examples.
