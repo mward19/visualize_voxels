@@ -10,7 +10,7 @@ More is possible by setting keyword arguments. Here is the same array visualized
 
 Here the array is visualized with a bounding box around the bacteria in the image:
 
-![Bounding box visualization](bounding_box.mp4)
+![Bounding box visualization](bounding_box.gif)
 
 Because this uses `matplotlib`'s animations as a backend, the visualizations can be interacted with in Jupyter notebooks.
 
