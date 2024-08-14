@@ -31,6 +31,10 @@ pip install visualize_voxels-0.1-py3-none-any.whl
 
 Feel free to delete `visualize_voxels-0.1-py3-none-any.whl` after installation.
 
+```shell
+rm visualize_voxels-0.1-py3-none-any.whl
+```
+
 # Usage
 Use the `visualize` function on a 3D image array in a script or Jupyter notebook to visualize it:
 
