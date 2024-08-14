@@ -29,6 +29,8 @@ Use pip on the file you just downloaded to install it to a python environment:
 pip install visualize_voxels-0.1-py3-none-any.whl
 ```
 
+Feel free to delete `visualize_voxels-0.1-py3-none-any.whl` after installation.
+
 # Usage
 Use the `visualize` function on a 3D image array in a script or Jupyter notebook to visualize it:
 
