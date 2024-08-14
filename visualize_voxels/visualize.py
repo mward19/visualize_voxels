@@ -40,6 +40,7 @@ def visualize(
         array, 
         filename=None,
         *, 
+        title=None,
         scale=1.0,          # Scale image size
         slices=50,          # If int, number of slices to display. If list, slices to display.
         fps=10.,            # Frames per second
@@ -59,6 +60,8 @@ def visualize(
         filename (string): 
             If set, saves the displayed animation as `filename`.
     Keyword args:
+        title (string):
+            A title for the plot
         scale (float or int): 
             Scales the image size.
         slices (int or iterable of ints): 
@@ -129,7 +132,10 @@ def visualize(
         ax.imshow(array[tuple(view_tuple)], cmap='gray')
 
         if showaxes:
-            ax.set_title(f"{axislabels[axis]}: Slice {slice_indices[slice_index]}")
+            if title is None:
+                ax.set_title(f"{axislabels[axis]}: Slice {slice_indices[slice_index]}")
+            else:
+                ax.set_title(f"{title}\n{axislabels[axis]}: Slice {slice_indices[slice_index]}")
             ax.set_xlabel(axislabels[x_axis])
             ax.set_ylabel(axislabels[y_axis])
             ax.axis('on')
