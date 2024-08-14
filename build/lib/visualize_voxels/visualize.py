@@ -46,6 +46,7 @@ def visualize(
         axis=0,             # Axis to slice over
         marks=[],           # List of 3D tuples to mark
         marksize=75,        # Size of marks in pixels
+        markalpha=1,
         imodmode=False,
         showaxes=True
     ):
@@ -70,6 +71,8 @@ def visualize(
             Points to mark in red
         marksize (float or int): 
             size of marks
+        markalpha (float):
+            transparency of marks
         showaxes (bool)
             If True, displays all three axes.
         imodmode (bool): 
@@ -140,7 +143,7 @@ def visualize(
             marks_on_slice = marks_by_slice[slice_indices[slice_index]]
             x = [mark[0] for mark in marks_on_slice]
             y = [mark[1] for mark in marks_on_slice]
-            ax.scatter(y, x, c='red', s=marksize)
+            ax.scatter(y, x, c='red', s=marksize, alpha=markalpha)
 
         # Manage progress bar
         if slice_index not in frames_processed:
