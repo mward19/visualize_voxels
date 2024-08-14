@@ -17,7 +17,7 @@ Because this uses `matplotlib`'s animations as a backend, the visualizations can
 See the Demo heading below for more information about the demo notebook, which includes the code that produced the above images, as well as more examples.
 
 # Installation
-To install, use pip on the installation file in this repository:
+To install, use pip:
 ```shell
 pip install https://github.com/mward19/visualize_voxels/raw/master/dist/visualize_voxels-0.1-py3-none-any.whl
 ```
