@@ -17,29 +17,9 @@ Because this uses `matplotlib`'s animations as a backend, the visualizations can
 See the Demo heading below for more information about the demo notebook, which includes the code that produced the above images, as well as more examples.
 
 # Installation
-TL;DR
+To install, use pip on the installation file in this repository:
 ```shell
-wget https://github.com/mward19/visualize_voxels/raw/master/dist/visualize_voxels-0.1-py3-none-any.whl
-pip install visualize_voxels-0.1-py3-none-any.whl
-rm visualize_voxels-0.1-py3-none-any.whl
-```
-
-Download the installation file at [this link](https://github.com/mward19/visualize_voxels/raw/master/dist/visualize_voxels-0.1-py3-none-any.whl), or use `wget`:
-
-```shell
-wget https://github.com/mward19/visualize_voxels/raw/master/dist/visualize_voxels-0.1-py3-none-any.whl
-```
-
-Use pip on the file you just downloaded to install it to a python environment:
-
-```shell
-pip install visualize_voxels-0.1-py3-none-any.whl
-```
-
-Feel free to delete `visualize_voxels-0.1-py3-none-any.whl` after installation.
-
-```shell
-rm visualize_voxels-0.1-py3-none-any.whl
+pip install https://github.com/mward19/visualize_voxels/raw/master/dist/visualize_voxels-0.1-py3-none-any.whl
 ```
 
 # Usage
