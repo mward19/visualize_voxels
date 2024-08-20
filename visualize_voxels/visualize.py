@@ -24,7 +24,7 @@ def set_conditional_backend():
     except ImportError:
         # If Tkinter is not available, fall back to Agg for file-based output
         mpl.use('Agg')
-        print("Tkinter not found. Using Agg backend. Interactive output will not be possible in .py scripts.")
+        print("Tkinter not found. Using Agg backend. Interactive output may not be possible.")
 
 # Call the function to set the backend
 set_conditional_backend()
