@@ -19,7 +19,8 @@ See the Demo heading below for more information about the demo notebook, which i
 # Installation
 To install, use pip:
 ```shell
-pip install https://github.com/mward19/visualize_voxels/raw/master/dist/visualize_voxels-0.1-py3-none-any.whl
+pip install git+https://github.com/mward19/visualize_voxels.git
+
 ```
 
 # Usage
