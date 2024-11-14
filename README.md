@@ -4,6 +4,8 @@ Simply calling `visualize(data)` where `data` is a 3D numpy array (`run_6355.mrc
 
 ![Example visualization](default_visualization.gif)
 
+`visualize_voxels` was written especially with inline Jupyter notebook visualization in mind, but also works perfectly well in standard `.py` scripts.
+
 More is possible by setting keyword arguments. Here is the same array visualized at a higher frame rate through a different axis with a helix plotted in red within the volume:
 
 ![Helix visualization](helix_visualization.gif)
