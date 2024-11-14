@@ -1,7 +1,10 @@
-Metadata-Version: 2.1
+Metadata-Version: 1.0
 Name: visualize-voxels
 Version: 0.1
 Summary: Provides a function to visualize 3D voxel arrays
 Home-page: https://github.com/mward19/visualize_voxels
 Author: Matthew Ward
 Author-email: matthew.merrill.ward@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
