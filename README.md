@@ -1,4 +1,4 @@
-`visualize_voxels` contains `visualize`, which allows for fast, easy visualization of 3D grayscale voxel images stored in the form of a 3D array of values.
+`visualize_voxels` contains the function `visualize`, which allows for fast, easy visualization of 3D grayscale voxel images stored in the form of a 3D array of values.
 
 Simply calling `visualize(data)` where `data` is a 3D numpy array (`run_6355.mrc`, see the Demo heading below) containing nearly 500 million voxels yields this visualization in a few seconds:
 
