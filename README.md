@@ -24,6 +24,8 @@ pip install git+https://github.com/mward19/visualize_voxels.git
 ```
 
 # Usage
+This package exports just one function: `visualize`.
+
 Use the `visualize` function on a 3D image array in a script or Jupyter notebook to visualize it:
 
 ```python
@@ -36,7 +38,63 @@ array_to_visualize = number_generator.normal(size=(100, 100, 100))
 visualize(array_to_visualize)
 ```
 
-`visualize` has many keyword arguments to customize display and plot points. See `demo_visualize.ipynb` for examples.
+`visualize` has many arguments to customize the display, plot points, and save the resulting visualization. 
+
+```python
+def visualize(
+        array, 
+        filename=None,
+        *, 
+        title=None,
+        scale=1.0,          # Scale image size
+        slices=50,          # If int, number of slices to display. If list, slices to display.
+        fps=10.,            # Frames per second
+        axis=0,             # Axis to slice over
+        marks=[],           # List of 3D tuples to mark
+        marksize=75,        # Size of marks in pixels
+        markalpha=1,
+        imodmode=False,
+        showaxes=True,
+        minval=None,
+        maxval=None
+    ):
+    """
+    Yields a notebook visualization of a 3D array `array` as an animation using FuncAnimation.
+
+    Args:
+        array (nparray): 
+            The array to visualize
+        filename (string): 
+            If set, saves the displayed animation as `filename`.
+    Keyword args:
+        title (string):
+            A title for the plot
+        scale (float or int): 
+            Scales the image size.
+        slices (int or iterable of ints): 
+            Number of slices or list of slices to display.
+        fps (int): 
+            Frames per second of the displayed animation
+        axis (int): 
+            The axis to slice over
+        marks (list of 3-element indexables): 
+            Points to mark in red
+        marksize (float or int): 
+            size of marks
+        markalpha (float):
+            transparency of marks
+        showaxes (bool)
+            If True, displays all three axes.
+        imodmode (bool): 
+            If set, displays axes how IMOD does (Z Y X). Defaults to False
+        minval (float):
+            The value of the darkest pixel. Defaults to the min of array
+        maxval (float):
+            The value of the brightest pixel. Defaults to the max of array
+    """
+```
+
+See `demo_visualize.ipynb` for examples. 
 
 # Demo
 The example data `run_6355.mrc` used in the included demo notebook `demo_visualize.ipynb` and on this README can be found at [the CryoET Data Portal](https://cryoetdataportal.czscience.com/runs/6355).
