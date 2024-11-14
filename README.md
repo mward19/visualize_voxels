@@ -40,7 +40,7 @@ array_to_visualize = number_generator.normal(size=(100, 100, 100))
 visualize(array_to_visualize)
 ```
 
-`visualize` has many arguments to customize the display, plot points, and save the resulting visualization. 
+`visualize` has many arguments to customize the visualization, mark points in it, save the resulting visualization, and more. 
 
 ```python
 def visualize(
