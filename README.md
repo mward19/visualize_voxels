@@ -14,7 +14,7 @@ Here the array is visualized with a bounding box around the bacteria in the imag
 
 ![Bounding box visualization](bounding_box.gif)
 
-Because this uses `matplotlib`'s animations as a backend, the visualizations can be interacted with in Jupyter notebooks.
+Because this uses `matplotlib`'s animations as a backend, the visualizations are interactive in Jupyter notebooks.
 
 See the Demo heading below for more information about the demo notebook, which includes the code that produced the above images, as well as more examples.
 
